@@ -1,0 +1,79 @@
+body {
+  background: #333333;
+}
+
+.hand {
+	cursor: pointer;
+}
+
+.default-cursor {
+	cursor: default;
+}
+
+.center {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.center-inline {
+  text-align: center;
+}
+
+#break {
+  float: left;
+  font-family: monospace;
+  border: 1px solid green;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+#break p {
+	margin-top: 30%;
+}
+
+#break span {
+  font-size:  30px;
+}
+
+#work {
+  float:right;
+  font-family: monospace;
+  border: 1px solid lightblue;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+
+#work p {
+	margin-top: 30%;
+}
+
+#work span {
+  font-size:  30px;
+}
+
+.white {
+  color: white;
+}
+
+h1 {
+  font-family: Courier;
+  font-size: 60px;
+}
+
+#start {
+	background: #333333;
+	height: 60px;
+	width: 120px;
+	border: 1px solid grey;
+	border-radius: 15px;
+	font-family: monospace;
+	color: white;
+	
+}
+
+button:focus {
+	outline: none;
+	box-shadow: 0 0 1em gold;
+}
